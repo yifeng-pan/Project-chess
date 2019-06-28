@@ -20,7 +20,7 @@
     - Player cannot resign.
     - Player automatically claim draw on Fifty-move rule and Threefold repetition.
     - The game does not automatically draw on certain end game conditions.  Example: king against king and knight.
-  - AI on default settings rates at around 1000 ELO.
+  - AI on default settings rates at around 1000 Elo.
   - src/runGUI.bat runs the game on Windows.
   - The GUI is written using JavaFX.
 
