@@ -1,3 +1,29 @@
+# Notes for Archive
+  - Chess in Java. Team project for CPSC 233 Winter 2019 at ucalgary
+  - Features:
+    - All basic movements
+    - Castling
+    - En passant
+    - Pawn promotion
+    - Check
+    - Checkmate
+    - Stalemate
+    - Fifty-move rule
+    - Threefold repetition
+    - Time control
+    - Fischer clock
+    - MinMax AI
+    - Load/Save game
+    - FEN
+  - Bugs:
+    - Player cannot offer draw.
+    - Player cannot resign.
+    - Player automatically claim draw on Fifty-move rule and Threefold repetition.
+    - The game does not automatically draw on certain end game conditions.  Example: king against king and knight.
+  - AI on default settings rates at around 1000 ELO.
+  - src/runGUI.bat runs the game on Windows.
+  - The GUI is written using JavaFX.
+
 # Chess
 Welcome!  Chess is a centuries old two player strategic turn based board game where each player attempts to outwit their opponent using six different types of pieces.  This is a fully functional chess game with complete rules and extra features that will allow you to play against either another human or against a computer.  The features of the game allow you to test your skills by setting up custom board positions and playing against different computer players to learn better tactics and strategy.
 
